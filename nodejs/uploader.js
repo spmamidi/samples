@@ -10,7 +10,7 @@ exports.uploadFile = function(fileName){
 		logger.info("Starting Upload:" + fileName);
 		setTimeout(function(){
 			logger.info("completed upload:" + fileName);
-			return deferred.resolve();
+			return deferred.resolve(fileName);
 		});
 	});
 	return deferred.promise;

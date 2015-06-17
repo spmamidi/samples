@@ -3,7 +3,9 @@ var Q  = require('q');
 var _ = require('lodash-node');
 var fs = require('fs');
 var storage = require('azure-storage');
+
 var directoryName = 'Images/';
+
 
 
 console.log('testing');
@@ -18,7 +20,9 @@ var items = [{
     imageUrl : 'https://smamidi.blob.core.windows.net/images/0081b5f4-38d4-4cbc-89ce-8b4a7c87c7ab.jpeg'
 }];
     
-var promise =   
+
+
+
 
 // azure image url update
 
